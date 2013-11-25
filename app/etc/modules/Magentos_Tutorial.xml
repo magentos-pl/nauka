@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * http://magentos.pl
+ */
+-->
+<config>
+  <modules>
+    <Magentos_Tutorial>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Magentos_Tutorial>
+  </modules>
+</config>
