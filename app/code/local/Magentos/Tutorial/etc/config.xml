@@ -4,4 +4,9 @@
             <version>0.1</version>
         </Magentos_Tutorial>
     </modules>
+    <global>
+    	<blocks>
+            <magentos><class>Magentos_Tutorial_Block</class></magentos>
+        </blocks>
+    </global>
 </config>
