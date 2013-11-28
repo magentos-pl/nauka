@@ -26,8 +26,11 @@
 /**
  * @var Mage_Page_Block_Html_Header $this
  */
-?>f
+?>
 <div class="header-container">
+    <div>
+    	<a href="http://magentos.pl"><img src="http://magentos.pl/wp-content/uploads/2013/11/cropped-logo.gif"></a>
+    </div>
     <div class="header">
         <?php if ($this->getIsHomePage()):?>
         <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
