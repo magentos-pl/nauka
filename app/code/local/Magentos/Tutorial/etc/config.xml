@@ -9,4 +9,16 @@
             <magentos><class>Magentos_Tutorial_Block</class></magentos>
         </blocks>
     </global>
+    <frontend>
+        <routers>
+            <magentos>
+                <use>standard</use>
+                <args>
+                    <module>Magentos_Tutorial</module>
+                    <frontName>magentos</frontName>
+                </args>
+            </magentos>
+        </routers>
+         
+    </frontend>
 </config>
