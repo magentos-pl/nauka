@@ -8,6 +8,9 @@
     	<blocks>
             <magentos><class>Magentos_Tutorial_Block</class></magentos>
         </blocks>
+        <helpers>
+            <magentos><class>Magentos_Tutorial_Helper</class></magentos>
+        </helpers>
     </global>
     <frontend>
         <routers>

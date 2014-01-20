@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<config>
+  <tabs>
+        <magentos translate="label" module="magentos">
+            <label>Magentos - zakładka</label>
+            <sort_order>1</sort_order>
+        </magentos>
+  </tabs>
+  <sections>
+    <magentos_sekcja translate="label">
+      <label>Magentos - sekcja</label>
+      <tab>magentos</tab>
+      <frontend_type>text</frontend_type>
+      <sort_order>10</sort_order>
+      <show_in_default>1</show_in_default>
+      <show_in_website>1</show_in_website>
+      <show_in_store>1</show_in_store>
+	  <groups>
+        
+        <magentos_grupa translate="label">
+          <label>Magentos - grupa</label>
+          <frontend_type>text</frontend_type>
+          <sort_order>100</sort_order>
+          <show_in_default>1</show_in_default>
+          <show_in_website>1</show_in_website>
+          <show_in_store>1</show_in_store>
+          <fields>
+            
+            <taknie translate="label comment">
+              <label>Tak czy nie?</label>
+              <frontend_type>select</frontend_type>
+              <source_model>adminhtml/system_config_source_yesno</source_model>
+              <sort_order>10</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </taknie>
+            <text translate="label comment">
+              <label>Tekst</label>
+              <frontend_type>text</frontend_type>
+              <sort_order>10</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </text>
+            <textarea translate="label comment">
+              <label>Pole tekstowe</label>
+              <frontend_type>textarea</frontend_type>
+              <sort_order>10</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </textarea>
+            <multiselect translate="label comment">
+              <label>Multiselect</label>
+              <frontend_type>multiselect</frontend_type>
+              <source_model>adminhtml/system_config_source_enabledisable</source_model>
+              
+              <sort_order>10</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </multiselect>
+            <czas translate="label comment">
+              <label>Czas</label>
+              <frontend_type>time</frontend_type>
+              <sort_order>10</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </czas>
+            <imagefile translate="label comment">
+              <label>Zdjęcie</label>
+              <frontend_type>imagefile</frontend_type>
+              <sort_order>10</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </imagefile>
+            <file translate="label comment">
+              <label>Plik</label>
+              <frontend_type>file</frontend_type>
+              <sort_order>10</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </file>
+          </fields>
+        </magentos_grupa>
+      </groups>	
+    </magentos_sekcja>
+  </sections>
+</config>
